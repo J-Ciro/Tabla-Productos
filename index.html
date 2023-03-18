@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Productos</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+      
+      </nav>
+    </header>
+    <main class="main">
+      <section class="main__section">
+        <form action="" class="section__form" id="form">
+      
+          <label for="nombre_producto">Nombre de Producto</label><br />
+          <input type="text" id="nombre_producto" name="nombre_producto" />
+          <br />
+          <label for="precio_producto">Precio</label><br />
+          <input type="text" id="precio_producto" name="precio_producto" />
+          <br />
+          <label for="cantidad_producto">Cantidad</label><br />
+          <input type="text" id="cantidad_producto" name="cantidad_producto" />
+          <br />
+          <label for="categoria_producto">Categoria</label><br />
+          <input
+            type="text"
+            id="categoria_producto"
+            name="categoria_producto"
+          />
+          <br />
+          <section class="main__buttons">
+            <button type="button" onclick="datos();" id="enviar">Enviar</button>
+            <section class="button_actualizar">
+
+            </section>
+          </section>
+        </form>
+      </section>
+      <section class="section__table"><br />
+        <table id="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nombre del Podructo</th>
+              <th>Precio del Producto</th>
+              <th>Cantidad</th>
+              <th>Categoria Producto</th>
+              <th>Eliminar</th>
+              <th>Actualizar</th>
+            </tr>
+          </thead>
+          <tbody class="table__content">
+
+          </tbody>
+            <tr></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
